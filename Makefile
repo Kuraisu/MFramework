@@ -1,0 +1,4 @@
+#
+
+all:
+		lua test.lua
