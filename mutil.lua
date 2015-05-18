@@ -1,3 +1,6 @@
+--
+
+function dumpTable(t, name, indent)
 --[[
    Author: Julio Manuel Fernandez-Diaz
    Date:   January 12, 2007
@@ -28,7 +31,6 @@
       indent is a first indentation (optional).
 --]]
       
-function dumpTable(t, name, indent)
    local cart     -- a container
    local autoref  -- for self references
 

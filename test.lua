@@ -1084,6 +1084,8 @@ function TestMFramework:test24AssignNilToMembers()
    
 end
 
+--[[
+-- Implementation pending
 function TestMFramework:test25Signals()
    local TrafficLight = MClass("TrafficLight", MObject)
    {
@@ -1142,6 +1144,7 @@ function TestMFramework:test25Signals()
    assertEquals(aTrafficLight.light, "red")
    
 end
+--]]
 
 LuaUnit:run()
 
